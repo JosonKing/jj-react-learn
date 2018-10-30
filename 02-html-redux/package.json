@@ -1,5 +1,5 @@
 {
-  "name": "01-jsx",
+  "name": "log4jkjs",
   "version": "0.4.0",
   "description": "log for javascript",
   "main": "./lib/jsx.js",
