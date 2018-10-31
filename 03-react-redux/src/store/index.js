@@ -1,10 +1,7 @@
-let initState = {
-  number: 0
-};
+let initState = { number: 0 };
 
 let createStore = (reducer) => {
   let state;
-
   function dispatch(action) {
     state = reducer(state, action);
   }
@@ -22,16 +19,13 @@ let createStore = (reducer) => {
 let reducer = (state = initState, action) => {
   switch (action.type) {
     case 'add':
-      return {
-        number: state.number + action.count
-      }
+      return {number: state.number + action.count}
     default:
       return state
   }
 }
 
 let store = createStore(reducer);
-
 function render() {
   let content = document.querySelector('.content');
   content.innerHTML = store.getState().number;
@@ -46,3 +40,4 @@ function add() {
 }
 
 render();
+

@@ -1,0 +1,27 @@
+{
+  "name": "log4jkjs",
+  "version": "0.4.0",
+  "description": "log for javascript",
+  "main": "./lib/jsx.js",
+  "scripts": {
+    "babel": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JosonKing/log4jkjs.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "log",
+    "javascript",
+    "es6"
+  ],
+  "author": "joson",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {}
+}
